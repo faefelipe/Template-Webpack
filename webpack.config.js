@@ -25,6 +25,10 @@ let config = {
         loader: 'babel-loader'
       }
     ]
+  },
+  devServer: {
+    contentBase: path.resolve(__dirname, 'public'),
+    open: true
   }
 };
 
